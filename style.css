@@ -85,3 +85,31 @@
   height: 100%; /* Make the image take the full height of the container 
   object-fit: cover; /* Maintain aspect ratio and cover the container 
 } */
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{ 
+    width:300px;
+    height: 200px;
+    border-radius:15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow:1px 1px 4px;
+}
+.card-image{
+    padding:10px;
+}
+.card-image>img{
+    border-radius:15px; 
+}
+.card>p{
+      padding-inline: 20px !important; 
+      text-align: justify;
+}
+.section-4-card-image{
+    border-radius:15px;
+}
